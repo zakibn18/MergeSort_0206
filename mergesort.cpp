@@ -80,6 +80,11 @@ void mergeSort(int low, int high)
    }
 }
 
+void output()
+{
+  
+}
+
 int main() {
 
 }
