@@ -22,6 +22,12 @@ void input()
   cout << endl << "==========================" << endl;
   cout << endl << "Inputkan isi element array" << endl;
   cout << endl << "==========================" << endl;
+
+  for (int i = 0; i < n; i++)
+  {
+    cout << "Array index ke-"<< i << " = ";
+    cin >> arr[i];
+  }
 }
 
 int main() {
